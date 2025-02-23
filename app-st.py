@@ -13,6 +13,7 @@ from agno.tools.duckduckgo import DuckDuckGoTools
 from agno.tools.yfinance import YFinanceTools
 
 # --------- LOAD API KEY ---------
+OPENAI_API_KEY = "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"
 openai_api_key = os.getenv("OPENAI_API_KEY")
 if not openai_api_key:
     st.error("OpenAI API key not found. Please set the OPENAI_API_KEY environment variable.")
